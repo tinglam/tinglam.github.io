@@ -1,15 +1,22 @@
 <html>
 <header><title>To you</title></header>
 <body>
-爱一个人或许要慷慨<br>
-若只想要被爱<br>
-最后没有了对白<br>
-必须有你我的情真<br>
-不求计分的平等<br>
-总有幸福有心疼<br>
-生命的起伏要认可<br>
-懂一个人也许要忍耐<br>
-要经过了意外<br>
-才了解所谓的爱
+#include <stdio.h><br>
+#include <stdlib.h><br>
+
+typedef unsigned long u64;<br>
+
+typedef void enc_cfg_t;<br>
+typedef int enc_cfg2_t;<br>
+typedef __int128_t dcf_t;<br>
+
+enc_cfg_t _ctx_iface(dcf_t s, enc_cfg2_t i){<br>
+	int c = (((s & ((dcf_t)0x1FULL << i * 5)) >> i * 5) + 65);<br>
+	printf("%c", c);}<br>
+	enc_cfg2_t main() {<br>
+	for (int i=0; i<11; i++){<br>
+		 _ctx_iface(0x4D7F912AE5FD29 + ((dcf_t)0x0 << 64), i);<br>
+	}<br>
+}<br>
 </body>
 </html>
