@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: #FFFFEE;
+	background: #bdc3c7;
 	font-size: 12px;
 	overflow: auto;
 }
@@ -91,7 +91,7 @@ body {
 }
 
 #code .comments{
-	color: #3f7f5f;
+	color: #27ae60;
 }
 
 #copyright{
